@@ -6,8 +6,12 @@ Build a hyperlapse-style MP4 between any two points using Google Street View.
 
 <table>
   <tr>
-    <td><a href="https://youtube.com/shorts/MgUx6vFOtLU"><img src="https://img.youtube.com/vi/MgUx6vFOtLU/hqdefault.jpg" alt="Redmond to Aurora (Drive)" width="320"></a></td>
-    <td><a href="https://youtube.com/shorts/hu3_zRD6uGI"><img src="https://img.youtube.com/vi/hu3_zRD6uGI/hqdefault.jpg" alt="Pike to Needle (Walk)" width="320"></a></td>
+    <td>
+    Redmond to Aurora (Drive)
+    <a href="https://youtube.com/shorts/MgUx6vFOtLU"><img src="https://img.youtube.com/vi/MgUx6vFOtLU/hqdefault.jpg" alt="Redmond to Aurora (Drive)" width="320"></a></td>
+    <td>
+    Pike to Needle (Walk)
+    <a href="https://youtube.com/shorts/hu3_zRD6uGI"><img src="https://img.youtube.com/vi/hu3_zRD6uGI/hqdefault.jpg" alt="Pike to Needle (Walk)" width="320"></a></td>
   </tr>
 </table>
 
