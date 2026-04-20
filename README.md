@@ -2,6 +2,11 @@
 
 Build a hyperlapse-style MP4 between any two points using Google Street View.
 
+## Demo
+
+[![Redmond to Aurora (Drive)](https://img.youtube.com/vi/MgUx6vFOtLU/hqdefault.jpg)](https://youtube.com/shorts/MgUx6vFOtLU)
+[![Pike to Needle (Walk)](https://img.youtube.com/vi/hu3_zRD6uGI/hqdefault.jpg)](https://youtube.com/shorts/hu3_zRD6uGI)
+
 ## Setup
 
 ```bash
