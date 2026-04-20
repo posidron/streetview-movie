@@ -1,4 +1,4 @@
-# streetview_movie
+# StreetviewMovie
 
 Build a hyperlapse-style MP4 between any two points using Google Street View.
 
