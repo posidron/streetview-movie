@@ -94,13 +94,3 @@ get a $200/month free credit on new Google Cloud projects, which covers roughly
 - **Rate limits.** The 20ms sleep between requests keeps you well under the
   default QPS ceilings. Parallelizing with a thread pool works, but watch for
   429s.
-
-## Ideas if you want to push it further
-
-- Resume support: check if `frame_NNNNNN.jpg` exists before fetching.
-- Parallel fetching with a 4–8 worker `ThreadPoolExecutor` — roughly 5x faster.
-- Better stabilization: OpenCV feature matching + homography warp per frame
-  pair. Slower, visibly smoother than vidstab on shaky routes.
-- Ken Burns-style slow pans: modulate `heading` or `pitch` around the road
-  bearing instead of locking to it.
-- Audio: ffmpeg `-i music.mp3 -shortest` tacked onto the final encode.
