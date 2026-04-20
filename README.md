@@ -39,7 +39,7 @@ API if that is what your project has enabled.
 
 ```bash
 # Quick test, walking pace, ~1 km
-uv run streetview_movie.py \
+uv run streetview_video.py \
   --start "Pike Place Market, Seattle" \
   --end   "Space Needle, Seattle" \
   --mode  walking \
@@ -48,7 +48,7 @@ uv run streetview_movie.py \
   --out   pike_to_needle.mp4
 
 # Longer driving trip — use a bigger step to control cost
-uv run streetview_movie.py \
+uv run streetview_video.py \
   --start "Seattle, WA" \
   --end   "Leavenworth, WA" \
   --step  25 \
@@ -56,7 +56,7 @@ uv run streetview_movie.py \
   --out   leavenworth.mp4
 
 # Re-encode an existing frame set without any Google API calls
-uv run streetview_movie.py \
+uv run streetview_video.py \
   --encode-only \
   --frames-dir redmond_to_aurora_frames \
   --stabilize \

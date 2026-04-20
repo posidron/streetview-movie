@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-streetview_movie.py — build a hyperlapse-style video between two points
+streetview_video.py — build a hyperlapse-style video between two points
 using Google Street View.
 
 Pipeline: Routes API / Directions API → densify polyline → resolve pano IDs →
@@ -9,7 +9,7 @@ temporal smoothing → encode to mp4.
 
 Usage:
     export GOOGLE_MAPS_API_KEY=...
-    python streetview_movie.py --start "Pike Place Market, Seattle" \\
+    python streetview_video.py --start "Pike Place Market, Seattle" \\
                                --end   "Kirkland, WA" \\
                                --out route.mp4
 """
